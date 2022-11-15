@@ -8,14 +8,14 @@ the following section.
 </p>
 
 #### Classifiers implemented:
-1. Bayes’ Classifier
-2. KNN
-3. Kernel SVM
-4. Boosted SVM
+    Bayes’ Classifier
+    KNN
+    Kernel SVM
+    Boosted SVM
 
 #### Dimensionality reduction methods implemented:
-1. PCA
-2. MDA
+    PCA
+    MDA
 
 #### Dataset:
 data.mat
@@ -48,4 +48,12 @@ illumination.mat
 	The file 'illumination.mat' has a variable "illum" of size 1920x21x68.
 	reshape(illum(:, i,j), 48, 40) gives i^th image of j^th subject.
 
+## Steps to run:
+#### Wrapper code that calls the methods to classify is present in the Jupyter notebooks
+Load the notebook in any compatible IDE and click run all.
+Part 1:
+    1. Bayes classifier: Bayes.ipynb -> runs illumination testing data against neutral and facial expression training data for data.mat and prints accuracy at the end of each cell after classification. Similiar patter is followed for other data sets.</br>
+    All 3 datasets are evaluated in this notebook
 
+    2. k-Nearest Neighbors : KNN.ipynb -> ( _Same as above_ ) runs illumination testing data against neutral and facial expression training data for data.mat and prints accuracy at the end of each cell after classification. Similiar patter is followed for other data sets.</br>
+    All 3 datasets are evaluated in this notebook
