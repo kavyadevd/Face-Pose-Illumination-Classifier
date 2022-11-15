@@ -60,6 +60,24 @@ All 3 datasets are evaluated in this notebook
 All 3 datasets are evaluated in this notebook
 
 ### Part 2:
-1. **Bayes classifier: Bayes_Q2.ipynb** -> Evaluated the data.mat data to classify neutral vs facial expression input with PCA, MDA and without it
-1. **k-Nearest Neighbors: KNN_Q2.ipynb** -> ( _Same as above_ ) Evaluated the data.mat data to classify neutral vs facial expression input with PCA, MDA and without it
+1. **Bayes classifier: Bayes_Q2.ipynb** -> Evaluates the data.mat data to classify neutral vs facial expression input with PCA, MDA and without it
+2. **k-Nearest Neighbors: KNN_Q2.ipynb** -> ( _Same as above_ ) Evaluates the data.mat data to classify neutral vs facial expression input with PCA, MDA and without it
+3. **Kernel SVM: SVM.ipynb** -> Here the classification is done with three different kernels: rbf, polynomial and linear.
+3. **Boosted Kernel SVM: SVM.ipynb** -> Here the classification is done with PCA and using a linear kernel.
+
+
+### Helper classes:
+The helper classes and methods are present in the .py files:
+1. Read and load train/test data:
+    get_train_test_data_2.py
+    get_train_test_data1.py
+2. PCA, MDA:
+    pca.py
+    mda.py
+3. Classifiers:
+bayes_classifier.py
+    knn.py
+    svm.py
+
+### Some of the Graph outputs are present in the result folder
 
