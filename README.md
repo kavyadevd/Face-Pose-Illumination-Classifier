@@ -48,12 +48,18 @@ illumination.mat
 	The file 'illumination.mat' has a variable "illum" of size 1920x21x68.
 	reshape(illum(:, i,j), 48, 40) gives i^th image of j^th subject.
 
-## Steps to run:
-#### Wrapper code that calls the methods to classify is present in the Jupyter notebooks
+# Steps to run:
+### Wrapper code that calls the methods to classify is present in the Jupyter notebooks
 Load the notebook in any compatible IDE and click run all.</br>
-Part 1:
-1. Bayes classifier: Bayes.ipynb -> runs illumination testing data against neutral and facial expression trainingdata for data.mat and prints accuracy at the end of each cell after classification. Similiar patter is followed forother data sets.</br>
+**All notebooks eveluate the classification first without dimensionality reduction, then with various variations of PCA followed by various variations of MDA**
+### Part 1:
+1. **Bayes classifier: Bayes.ipynb** -> runs illumination testing data against neutral and facial expression trainingdata for data.mat and prints accuracy at the end of each cell after classification. Similiar patter is followed forother data sets.</br>
 All 3 datasets are evaluated in this notebook
 
-2. k-Nearest Neighbors : KNN.ipynb -> ( _Same as above_ ) runs illumination testing data against neutral and facialexpression training data for data.mat and prints accuracy at the end of each cell after classification. Similiarpatter is followed for other data sets.</br>
+2. **k-Nearest Neighbors : KNN.ipynb** -> ( _Same as above_ ) runs illumination testing data against neutral and facialexpression training data for data.mat and prints accuracy at the end of each cell after classification. Similiarpatter is followed for other data sets.</br>
 All 3 datasets are evaluated in this notebook
+
+### Part 2:
+1. **Bayes classifier: Bayes_Q2.ipynb** -> Evaluated the data.mat data to classify neutral vs facial expression input with PCA, MDA and without it
+1. **k-Nearest Neighbors: KNN_Q2.ipynb** -> ( _Same as above_ ) Evaluated the data.mat data to classify neutral vs facial expression input with PCA, MDA and without it
+
