@@ -68,13 +68,13 @@ All 3 datasets are evaluated in this notebook
 
 ### Helper classes:
 The helper classes and methods are present in the .py files:
-1. Read and load train/test data:
+Read and load train/test data:
     get_train_test_data_2.py
     get_train_test_data1.py
-2. PCA, MDA:
+PCA, MDA:
     pca.py
     mda.py
-3. Classifiers:
+Classifiers:
 bayes_classifier.py
     knn.py
     svm.py
