@@ -50,10 +50,10 @@ illumination.mat
 
 ## Steps to run:
 #### Wrapper code that calls the methods to classify is present in the Jupyter notebooks
-Load the notebook in any compatible IDE and click run all.
+Load the notebook in any compatible IDE and click run all.</br>
 Part 1:
-    1. Bayes classifier: Bayes.ipynb -> runs illumination testing data against neutral and facial expression training data for data.mat and prints accuracy at the end of each cell after classification. Similiar patter is followed for other data sets.</br>
-    All 3 datasets are evaluated in this notebook
+1. Bayes classifier: Bayes.ipynb -> runs illumination testing data against neutral and facial expression trainingdata for data.mat and prints accuracy at the end of each cell after classification. Similiar patter is followed forother data sets.</br>
+All 3 datasets are evaluated in this notebook
 
-    2. k-Nearest Neighbors : KNN.ipynb -> ( _Same as above_ ) runs illumination testing data against neutral and facial expression training data for data.mat and prints accuracy at the end of each cell after classification. Similiar patter is followed for other data sets.</br>
-    All 3 datasets are evaluated in this notebook
+2. k-Nearest Neighbors : KNN.ipynb -> ( _Same as above_ ) runs illumination testing data against neutral and facialexpression training data for data.mat and prints accuracy at the end of each cell after classification. Similiarpatter is followed for other data sets.</br>
+All 3 datasets are evaluated in this notebook
