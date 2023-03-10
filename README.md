@@ -6,6 +6,12 @@ testing sets and use the training data to train your classifiers. The whole pipe
 the following section.
 </p>
 
+<p align="center">
+  <img alt="Setup1" src="https://user-images.githubusercontent.com/13993518/224439297-9a63f64f-4c97-4986-87b7-ea301478b4a8.png" width="55%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+</p>
+
+
 >> This is a midterm project completed for ENEE633/CMSC828C Statistics and Pattern Recognition class University of Maryland College Park
 
 #### Classifiers implemented:
