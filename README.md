@@ -1,11 +1,12 @@
-# **ENEE633/CMSC828C**
+# **Face, Pose, Illumination Classifier**
 
 <p>
-The aim of this project is to implement different classifiers to achieve face recognition. You are
-given a set of faces and their corresponding labels. You need to split the data into training and
+The aim of this project is to implement different classifiers to achieve face recognition given a set of faces and their corresponding labels. You need to split the data into training and
 testing sets and use the training data to train your classifiers. The whole pipeline is described in
 the following section.
 </p>
+
+>> This is a midterm project completed for ENEE633/CMSC828C Statistics and Pattern Recognition class University of Maryland College Park
 
 #### Classifiers implemented:
     Bayes’ Classifier
